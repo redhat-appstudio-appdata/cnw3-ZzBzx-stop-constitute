@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: inventory-quarkus-cnw3
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/agroom-tenant/cnw3/inventory-quarkus-cnw3@sha256:95373d41e7ce1b442c061bf9590cc4fbd04fffc2eeff0cf3ec6887bf4e7849e9
+        name: my-java-quarkus
+        resources: {}
+status: {}
