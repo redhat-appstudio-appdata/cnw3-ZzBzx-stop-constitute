@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: inventory-quarkus-cnw3
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-user-workloads/agroom-tenant/cnw3/inventory-quarkus-cnw3@sha256:95373d41e7ce1b442c061bf9590cc4fbd04fffc2eeff0cf3ec6887bf4e7849e9
         name: my-java-quarkus
         ports:
         - containerPort: 8081
