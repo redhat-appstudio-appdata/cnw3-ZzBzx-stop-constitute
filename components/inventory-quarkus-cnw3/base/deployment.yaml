@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: cnw3
   name: inventory-quarkus-cnw3
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
